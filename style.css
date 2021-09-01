@@ -25,11 +25,36 @@ h1, h2 {
     background-repeat: no-repeat;
 }
 
+
+
+
 .hero-area h1 {
     letter-spacing:-3px;
     font-weight:900;
     font-size:100px;
 }
 
+.coming-soon {
+    letter-spacing:-1px;
+    font-size:30px;
+    margin-top:50px;
+    opacity: 0.8;
+    font-weight:600;
+}
 
+@media only screen and (max-width: 800px) {
+
+
+    .hero-area {
+        padding:60% 5%;
+        background:url(images/mobile.jpg);
+        background-size:cover;
+        background-repeat:no-repeat
+
+    }
+
+    .hero-area h1 {
+        font-size:50px;
+    }
+  }
 
