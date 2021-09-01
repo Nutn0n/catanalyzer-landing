@@ -19,10 +19,16 @@ h1, h2 {
 .hero-area {
     padding:20%;
     text-align: center;
+    background:url(images/background.jpeg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .hero-area h1 {
-    font-size:70px;
+    letter-spacing:-3px;
+    font-weight:900;
+    font-size:100px;
 }
 
 
