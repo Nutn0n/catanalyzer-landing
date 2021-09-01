@@ -1,0 +1,29 @@
+* {
+    margin:0;
+}
+
+body {
+    background:#fff;
+    color:#000;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight:300;
+}
+
+h1, h2 {
+    font-weight:800;
+}
+
+.hero-area {
+    padding:20%;
+    text-align: center;
+}
+
+.hero-area h1 {
+    font-size:70px;
+}
+
+
+
