@@ -55,12 +55,20 @@ h1, h2 {
     display: inline-block;
     border-radius: 10px;
     transform: scale(1);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+    transition: all 1s ease;
+}
+
+
+.iphone:hover {
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    transition: all .3s ease;
 }
 
 .mockup-area p {
     font-size:20px;
     padding:100px;
+    opacity: 0.5;
 }
 
 .iphone.app-1 {
