@@ -7,7 +7,7 @@ body {
     color:#000;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
     font-family: 'DM Sans', sans-serif;
     font-weight:300;
 }
@@ -42,6 +42,48 @@ h1, h2 {
     font-weight:600;
 }
 
+.mockup-area {
+    padding:5%;
+    text-align: center;
+}
+
+.iphone {
+    height:530px;
+    width:300px;
+    background:#fafafa;
+    margin:20px;
+    display: inline-block;
+    border-radius: 10px;
+    transform: scale(1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mockup-area p {
+    font-size:20px;
+    padding:100px;
+}
+
+.iphone.app-1 {
+    background:url(images/app1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iphone.app-2 {
+    background:url(images/app2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iphone.app-3 {
+    background:url(images/app3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
 @media only screen and (max-width: 800px) {
 
 
@@ -51,6 +93,12 @@ h1, h2 {
         background-size:cover;
         background-repeat:no-repeat
 
+
+    }
+
+    .mockup-area p {
+        font-size:20px;
+        padding:20px;
     }
 
     .hero-area h1 {
