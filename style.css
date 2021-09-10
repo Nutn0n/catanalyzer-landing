@@ -177,6 +177,21 @@ h1, h2 {
         font-size:50px;
     }
 
+    .cat {
+        height:210px;
+        width:140px;
+        border-radius: 10px;
+        margin:6px;
+    }
+
+    .cat h2 {
+        font-size: 18px;
+    }
+    
+    .cat-pic {
+        margin-bottom: 10px;
+    }
+
     .download {
         margin-top: 20px;
     }
