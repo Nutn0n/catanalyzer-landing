@@ -5,10 +5,10 @@
 body {
     background:#fff;
     color:#000;
+    font-family: 'DM Sans', sans-serif;
 }
 
 h1, h2, h3, h4, p {
-    font-family: 'DM Sans', sans-serif;
     font-weight:300;
 }
 
@@ -17,15 +17,13 @@ h1, h2 {
 }
 
 .hero-area {
-    padding:20%;
+    padding:15%;
     text-align: center;
     background:url(images/background.jpeg);
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
-
-
 
 
 .hero-area h1 {
@@ -36,10 +34,35 @@ h1, h2 {
 
 .coming-soon {
     letter-spacing:-1px;
-    font-size:30px;
-    margin-top:50px;
+    font-size:24px;
+    margin-top:10vh;
     opacity: 0.8;
     font-weight:600;
+}
+
+.download {
+    display: inline-block;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.download:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.download-text {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.icon {
+    height: 24px;
+    padding-right: 7px;
 }
 
 .mockup-area {
@@ -90,8 +113,50 @@ h1, h2 {
     background-repeat: no-repeat;
 }
 
+.cat {
+    height:275px;
+    width:220px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    transform: scale(1);
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    overflow:hidden;
+    display: inline-block;
+    margin:14px;
+}
 
+.cat-pic {
+    width: 100%;
+    margin-bottom: 10px;
+}
 
+.result {
+    letter-spacing:-3px;
+    font-weight:900;
+    font-size:100px;
+    margin-top: 20px;
+}
+
+.foot-hero {
+    padding:15%;
+    padding-top: 0;
+    text-align: center;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.empty {
+    height: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 36px;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -101,8 +166,6 @@ h1, h2 {
         background:url(images/mobile.jpg);
         background-size:cover;
         background-repeat:no-repeat
-
-
     }
 
     .mockup-area p {
@@ -111,6 +174,14 @@ h1, h2 {
     }
 
     .hero-area h1 {
+        font-size:50px;
+    }
+
+    .download {
+        margin-top: 20px;
+    }
+
+    .result {
         font-size:50px;
     }
   }

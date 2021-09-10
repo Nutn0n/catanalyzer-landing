@@ -1,76 +1,170 @@
 <html>
+
 <head>
 
 
 
     <meta charset="utf-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Cat Analyzer</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😸</text></svg>" />
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😸</text></svg>" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <meta property="og:title"              content="Cat Analyzer" />
-    <meta property="og:description"        content="Bring machine learning to your cat." />
-    <meta property="og:image"              content="https://catanalyzer.netlify.app/images/og.jpg" />
+    <meta property="og:title" content="Cat Analyzer" />
+    <meta property="og:description" content="Bring machine learning to your cat." />
+    <meta property="og:image" content="https://catanalyzer.netlify.app/images/og.jpg" />
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LPGZE7FWF1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPGZE7FWF1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-LPGZE7FWF1');
-</script>
-<style>
-    #download {
-        display: inline-block;
-        color: #fff;
-        background-color: #007aff;
-        margin-top: 24px;
-        padding: 16px 48px;
-        border-radius: 8px;
-        text-decoration: none;
-    }
-</style>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LPGZE7FWF1');
+    </script>
 </head>
+
 <body>
 
     <div class="hero-area animate__animated animate__slideInUp">
-    <div class="hero-image"></div>
-    <h1 class="animate__animated animate__backInDown">Cat Analyzer</h1>
-    <h3 class="animate__animated animate__bounceIn">Bring machine learning to your cat.</h3>
-    <h4 class="coming-soon animate__animated animate__fadeIn animate__delay-1s">
-        <span style="font-weight:200;">Available now for android</span> 
-        <br />
-        <a id="download" href="https://github.com/SaltyAom/cat-analyzer/releases/download/0.0.0-alpha.2/app-arm64-v8a-release.apk">Download for Android</a> 
-    </h4>
+        <div class="hero-image"></div>
+        <h1 class="animate__animated animate__backInDown">Cat Analyzer</h1>
+        <h3 class="animate__animated animate__bounceIn">Bring machine learning to your cat.</h3>
+        <h4 class="coming-soon animate__animated animate__fadeIn animate__delay-1s">
+            <h2 style="margin-bottom: 0;">Beta available now</h2>
+            <br />
+            <div class="download" id="ios">
+                <img class="icon" src="./images/apple.png" alt="">
+                <a class="download-text" href="https://airtable.com/shrB28cwnrVawoJbw">iOS (waitlist)</a>
+            </div>
+            <div class="download" id="android">
+                <img class="icon" src="./images/android.png" alt="">
+                <a class="download-text"
+                    href="https://github.com/SaltyAom/cat-analyzer/releases/download/0.0.0-alpha.3/app-arm64-v8a-release.apk">Android</a>
+            </div>
+        </h4>
     </div>
 
 
     <div class="mockup-area">
 
         <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Introducing</h1>
-        <br/>
+        <br />
 
         <div class="app-1 iphone animate__animated animate__fadeInUp animate__delay-1s"></div>
-        <div class="app-2 iphone animate__animated animate__fadeInUp animate__delay-2s"></div>
-        <div class="app-3 iphone animate__animated animate__fadeInUp animate__delay-3s"></div>
+        <div class="app-2 iphone animate__animated animate__fadeInUp animate__delay-1s"></div>
+        <div class="app-3 iphone animate__animated animate__fadeInUp animate__delay-1s"></div>
 
         <p class="animate__animated animate__fadeInUp animate__delay-4s">
-            Having a feline friend can also help to relieve stress and improve your heart health. Owning a cat can be an extremely rewarding relationship.
+            Having a feline friend can also help to relieve stress and improve your heart health. Owning a cat can be an
+            extremely rewarding relationship.
         </p>
 
-    </div>>
+    </div>
+
+    <div class="mockup-area">
+
+        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">10 First Detectable Breeds</h1>
+        <br />
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/british.jpg" alt="">
+            <h2> British Shorthair </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/siam.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Siamese </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/bengal.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Bengal </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/egyptian.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Egyptian Mau </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/birman.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Birman </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/coon.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Maine Coon </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/ab.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Abyssinian </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/sphynx.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Sphynx </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/ragdoll.jpg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Ragdoll </h2>
+        </div>
+        <div class="cat animate__animated animate__fadeInUp animate__delay-1s">
+            <img class="cat-pic" src="./images/russian.jpeg" alt="">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s"> Russian Blue</h2>
+        </div>
+
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">
+            We're currently training our model using 100,000+ images of more than 60 breeds of cats to improve our detection engine for the next release
+        </p>
+    </div>
+
+    <div class="mockup-area">
+        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">The fastest cat detector in the market</h1>
+        <h1 class="result animate__animated animate__fadeInUp animate__delay-1s">0.04 Seconds</h1>
+        <h3 class="animate__animated animate__fadeInUp animate__delay-1s">Tested on iPhone 11</h3>
+        <h1 class="result animate__animated animate__fadeInUp animate__delay-2s">0.2 Seconds</h1>
+        <h3 class="animate__animated animate__fadeInUp animate__delay-1s">Tested on entry-level android phone from 2016</h3>
+    </div>
+
+    <div class="foot-hero animate__animated animate__slideInUp">
+        <h4 class="coming-soon animate__animated animate__fadeIn animate__delay-1s">
+            <h2 style="margin-bottom: 0;">Be our beta user today</h2>
+            <br />
+            <div class="download" id="ios">
+                <img class="icon" src="./images/apple.png" alt="">
+                <a class="download-text" href="https://airtable.com/shrB28cwnrVawoJbw">iOS (waitlist)</a>
+            </div>
+            <div class="download" id="android">
+                <img class="icon" src="./images/android.png" alt="">
+                <a class="download-text"
+                    href="https://github.com/SaltyAom/cat-analyzer/releases/download/0.0.0-alpha.3/app-arm64-v8a-release.apk">Android</a>
+            </div>
+            <div class="empty"></div>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                Apple's Testflight is required for iOS beta installation.
+            </p>
+        </h4>
+    </div>
+
+    <div class="footer">
+        <p> ©2021 Cat Analyzer Team </p>
+        <p> <a href="https://github.com/SaltyAom/cat-analyzer" style="color: black">Source Code Available on Github </a></p>
+    </div>
 
 </body>
 
+<script>
+    if ((/Android/i.test(navigator.userAgent))) {
+        document.getElementById("ios").style.display = "none"
+    } else if (/iPad|iPhone|iPod/i.test(navigator.userAgent)) {
+        document.getElementById("android").style.display = "none"
+    }
+</script>
 
 </html>
