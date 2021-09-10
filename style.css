@@ -96,19 +96,19 @@ h1, h2 {
 }
 
 .iphone.app-1 {
-    background:url(images/app1.jpeg);
+    background:url(images/app1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .iphone.app-2 {
-    background:url(images/app2.jpeg);
+    background:url(images/app2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .iphone.app-3 {
-    background:url(images/app3.jpeg);
+    background:url(images/app3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
